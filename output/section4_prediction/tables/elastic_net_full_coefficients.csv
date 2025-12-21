@@ -1,0 +1,130 @@
+term,estimate
+EPDS.ResultMedium,-7.700617893877265
+EPDS.ResultLow,-6.83084011485128
+(Intercept),0.8927122255353487
+PHQ9.ResultModerately Severe,0.5615032251776738
+Angry.after.latest.child.birthYes,0.32241107214481424
+Relationship.with.husbandGood,-0.2634608608786617
+PHQ9.Score,0.23518718667671093
+Diseases.during.pregnancyNone,-0.20781333099429555
+Recieved.SupportLow,0.19438550311357253
+History.of.pregnancy.lossNone,0.1728841943542263
+Birth.compliancyYes,0.15886040433918797
+Family.typeNuclear,-0.15773293246516726
+PHQ9.ResultMinimal,-0.13632687055167014
+Relationship.with.the.in.lawsGood,-0.13042640886603551
+Pregnancy.planYes,-0.11828008172603105
+Age.of.newborn6 months to 1 year,-0.10090343512600325
+Feeling.for.regular.activitiesWorried,0.09892644499818685
+Pregnancy.length9 months,-0.08769925903846719
+PHQ9.ResultModerate,0.05121336151473258
+AbuseNone,-0.049538663547928206
+Husband.s.monthly.incomeNone,0.043056396091119276
+Depression.before.pregnancy..PHQ2.Positive,0.03916139310031526
+Number.of.household.members6 to 8,0.03713157702705096
+BreastfeedYes,-0.019074038173841068
+Need.for.SupportNone,-0.015341276140114497
+Relationship.with.husbandNeutral,0.014029739563007924
+Depression.during.pregnancy..PHQ2.Positive,0.003456363614616961
+Feeling.for.regular.activitiesTired,-0.0019144922915663247
+Relax.sleep.when.the.newborn.is.asleepYes,0.00103331690124589
+sr,-4.4287677623860766e-4
+Age,0
+ResidenceCity,0
+ResidenceVillage,0
+Education.LevelHigh school,0
+Education.LevelHigh School,0
+Education.LevelNone,0
+Education.LevelPrimary school,0
+Education.LevelPrimary School,0
+Education.LevelUniversity,0
+Marital.statusMarried,0
+Occupation.before.latest.pregnancyDoctor,0
+Occupation.before.latest.pregnancyHouse wife,0
+Occupation.before.latest.pregnancyHousewife,0
+Occupation.before.latest.pregnancyOther,0
+Occupation.before.latest.pregnancyService,0
+Occupation.before.latest.pregnancyStudent,0
+Occupation.before.latest.pregnancyTeacher,0
+Monthly.income.before.latest.pregnancy20000 to 30000,0
+Monthly.income.before.latest.pregnancy5000 to 10000,0
+Monthly.income.before.latest.pregnancyLess than 5000,0
+Monthly.income.before.latest.pregnancyMore than 30000,0
+Monthly.income.before.latest.pregnancyNone,0
+Occupation.After.Your.Latest.ChildbirthDoctor,0
+Occupation.After.Your.Latest.ChildbirthHouse wife,0
+Occupation.After.Your.Latest.ChildbirthHousewife,0
+Occupation.After.Your.Latest.ChildbirthOther,0
+Occupation.After.Your.Latest.ChildbirthService,0
+Occupation.After.Your.Latest.ChildbirthStudent,0
+Occupation.After.Your.Latest.ChildbirthTeacher,0
+Current.monthly.income20000 to 30000,0
+Current.monthly.income5000 to 10000,0
+Current.monthly.incomeLess than 5000,0
+Current.monthly.incomeMore than 30000,0
+Current.monthly.incomeNone,0
+Husband.s.education.levelHigh school,0
+Husband.s.education.levelHigh School,0
+Husband.s.education.levelNone,0
+Husband.s.education.levelPrimary school,0
+Husband.s.education.levelPrimary School,0
+Husband.s.education.levelUniversity,0
+Husband.s.monthly.income20000 to 30000,0
+Husband.s.monthly.income5000 to 10000,0
+Husband.s.monthly.incomeLess than 5000,0
+Husband.s.monthly.incomeMore than 30000,0
+AddictionDrugs,0
+AddictionNone,0
+AddictionSmoking,0
+Total.childrenMore than Two,0
+Total.childrenOne,0
+Total.childrenTwo,0
+Disease.before.pregnancyChronic Disease,0
+Disease.before.pregnancyNon-Chronic Disease,0
+Disease.before.pregnancyNone,0
+History.of.pregnancy.lossStill-born delivery,0
+History.of.pregnancy.lossStill-born Delivery,0
+Number.of.household.members9 or more,0
+Relationship.with.the.in.lawsFriendly,0
+Relationship.with.the.in.lawsNeutral,0
+Relationship.with.the.in.lawsPoor,0
+Relationship.with.husbandFriendly,0
+Relationship.with.husbandPoor,0
+Relationship.with.the.newbornGood,0
+Relationship.with.the.newbornNeutral,0
+Relationship.with.the.newbornVery good,0
+Relationship.between.father.and.newbornGood,0
+Relationship.between.father.and.newbornNeutral,0
+Relationship.between.father.and.newbornVery good,0
+Feeling.about.motherhoodNeutral,0
+Feeling.about.motherhoodSad,0
+Recieved.SupportMedium,0
+Need.for.SupportLow,0
+Need.for.SupportMedium,0
+Major.changes.or.losses.during.pregnancyYes,0
+AbuseYes,0
+Trust.and.share.feelingsYes,0
+Number.of.the.latest.pregnancy,0
+Pregnancy.length6 months,0
+Pregnancy.length7 months,0
+Pregnancy.length8 months,0
+Pregnancy.lengthLess than 5 months,0
+Regular.checkupsYes,0
+Fear.of.pregnancyYes,0
+Diseases.during.pregnancyChronic Disease,0
+Diseases.during.pregnancyNon-chronic disease,0
+Diseases.during.pregnancyNon-Chronic Disease,0
+Age.of.newborn1 year to 1.5 year,0
+Age.of.newbornOlder than 1.5 year,0
+Age.of.immediate.older.children1yr to 3yr,0
+Age.of.immediate.older.children4yr to 6yr,0
+Age.of.immediate.older.children7yr to 12yr,0
+Age.of.immediate.older.childrenNone,0
+Mode.of.deliveryNormal Delivery,0
+Gender.of.newbornGirl,0
+Newborn.illnessYes,0
+Worry.about.newbornYes,0
+Relax.sleep.when.newborn.is.tendedYes,0
+Feeling.for.regular.activitiesNone,0
+PHQ9.ResultNormal,0
+PHQ9.ResultSevere,0

@@ -1,0 +1,140 @@
+feature,mean_abs_phi
+sr,4.989815274488203e-4
+Age,0
+ResidenceCity,0
+ResidenceVillage,0
+Education.LevelHigh school,0
+Education.LevelHigh School,0
+Education.LevelNone,0
+Education.LevelPrimary school,0
+Education.LevelPrimary School,0
+Education.LevelUniversity,0
+Marital.statusMarried,0
+Occupation.before.latest.pregnancyDoctor,0
+Occupation.before.latest.pregnancyHouse wife,0
+Occupation.before.latest.pregnancyHousewife,0
+Occupation.before.latest.pregnancyOther,0
+Occupation.before.latest.pregnancyService,0
+Occupation.before.latest.pregnancyStudent,0
+Occupation.before.latest.pregnancyTeacher,0
+Monthly.income.before.latest.pregnancy20000 to 30000,0
+Monthly.income.before.latest.pregnancy5000 to 10000,0
+Monthly.income.before.latest.pregnancyLess than 5000,0
+Monthly.income.before.latest.pregnancyMore than 30000,0
+Monthly.income.before.latest.pregnancyNone,0
+Occupation.After.Your.Latest.ChildbirthDoctor,0
+Occupation.After.Your.Latest.ChildbirthHouse wife,0
+Occupation.After.Your.Latest.ChildbirthHousewife,0
+Occupation.After.Your.Latest.ChildbirthOther,0
+Occupation.After.Your.Latest.ChildbirthService,0
+Occupation.After.Your.Latest.ChildbirthStudent,0
+Occupation.After.Your.Latest.ChildbirthTeacher,0
+Current.monthly.income20000 to 30000,0
+Current.monthly.income5000 to 10000,0
+Current.monthly.incomeLess than 5000,0
+Current.monthly.incomeMore than 30000,0
+Current.monthly.incomeNone,0
+Husband.s.education.levelHigh school,0
+Husband.s.education.levelHigh School,0
+Husband.s.education.levelNone,0
+Husband.s.education.levelPrimary school,0
+Husband.s.education.levelPrimary School,0
+Husband.s.education.levelUniversity,0
+Husband.s.monthly.income20000 to 30000,0
+Husband.s.monthly.income5000 to 10000,0
+Husband.s.monthly.incomeLess than 5000,0
+Husband.s.monthly.incomeMore than 30000,0
+Husband.s.monthly.incomeNone,0.06371041375047339
+AddictionDrugs,0
+AddictionNone,0
+AddictionSmoking,0
+Total.childrenMore than Two,0
+Total.childrenOne,0
+Total.childrenTwo,0.010580351918920611
+Disease.before.pregnancyChronic Disease,0
+Disease.before.pregnancyNon-Chronic Disease,0
+Disease.before.pregnancyNone,0
+History.of.pregnancy.lossNone,0.21196067819022316
+History.of.pregnancy.lossStill-born delivery,0
+History.of.pregnancy.lossStill-born Delivery,0
+Family.typeNuclear,0.17230023933038555
+Number.of.household.members6 to 8,0.04782079931960469
+Number.of.household.members9 or more,0
+Relationship.with.the.in.lawsFriendly,0
+Relationship.with.the.in.lawsGood,0.1536718355470877
+Relationship.with.the.in.lawsNeutral,0
+Relationship.with.the.in.lawsPoor,0
+Relationship.with.husbandFriendly,0
+Relationship.with.husbandGood,0.278928344769427
+Relationship.with.husbandNeutral,0.015368412408082193
+Relationship.with.husbandPoor,0
+Relationship.with.the.newbornGood,0
+Relationship.with.the.newbornNeutral,0
+Relationship.with.the.newbornVery good,0
+Relationship.between.father.and.newbornGood,0
+Relationship.between.father.and.newbornNeutral,0
+Relationship.between.father.and.newbornVery good,0
+Feeling.about.motherhoodNeutral,0
+Feeling.about.motherhoodSad,0
+Recieved.SupportLow,0.2098967340279457
+Recieved.SupportMedium,0
+Need.for.SupportLow,0
+Need.for.SupportMedium,0
+Need.for.SupportNone,0.008379919968263122
+Major.changes.or.losses.during.pregnancyYes,0
+AbuseNone,0.034516866646599476
+AbuseYes,0
+Trust.and.share.feelingsYes,0
+Number.of.the.latest.pregnancy,0
+Pregnancy.length6 months,0
+Pregnancy.length7 months,0
+Pregnancy.length8 months,0
+Pregnancy.length9 months,0.10062361245326612
+Pregnancy.lengthLess than 5 months,0
+Pregnancy.planYes,0.128959303123815
+Regular.checkupsYes,0
+Fear.of.pregnancyYes,0
+Diseases.during.pregnancyChronic Disease,0
+Diseases.during.pregnancyNon-chronic disease,0
+Diseases.during.pregnancyNon-Chronic Disease,0
+Diseases.during.pregnancyNone,0.22828396747053095
+Age.of.newborn1 year to 1.5 year,0
+Age.of.newborn6 months to 1 year,0.14025131453478493
+Age.of.newbornOlder than 1.5 year,0
+Age.of.immediate.older.children1yr to 3yr,0
+Age.of.immediate.older.children4yr to 6yr,0
+Age.of.immediate.older.children7yr to 12yr,0
+Age.of.immediate.older.childrenNone,0
+Mode.of.deliveryNormal Delivery,0
+Gender.of.newbornGirl,0
+Birth.compliancyYes,0.17977726430957966
+BreastfeedYes,0.030553741425489146
+Newborn.illnessYes,0
+Worry.about.newbornYes,0
+Relax.sleep.when.newborn.is.tendedYes,0
+Relax.sleep.when.the.newborn.is.asleepYes,0.035296899660188855
+Angry.after.latest.child.birthYes,0.31482101088128794
+Feeling.for.regular.activitiesNone,0
+Feeling.for.regular.activitiesTired,0.015478030334499017
+Feeling.for.regular.activitiesWorried,0.10834264826491528
+Depression.before.pregnancy..PHQ2.Positive,0.046667197330592734
+Depression.during.pregnancy..PHQ2.Positive,0.01930422351506082
+PHQ9.Score,0.23860974642899707
+PHQ9.ResultMinimal,0.13704204670681466
+PHQ9.ResultModerate,0.046540668310149115
+PHQ9.ResultModerately Severe,0.5623278392010513
+PHQ9.ResultNormal,0
+PHQ9.ResultSevere,0
+EPDS.ResultLow,6.964405464914211
+EPDS.ResultMedium,7.846071778298954
+abuse_any,0
+wealth_groupHigher,0
+residence_groupVillage,0
+education_groupHigh school,0
+education_groupHigh School,0
+education_groupNone,0
+education_groupPrimary school,0
+education_groupPrimary School,0
+education_groupUniversity,0
+ipv_groupNone,0.018532344398500867
+ipv_groupYes,0

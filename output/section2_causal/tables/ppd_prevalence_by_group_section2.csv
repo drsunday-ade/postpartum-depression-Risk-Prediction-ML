@@ -1,0 +1,41 @@
+domain,level,n,pct_of_sample,prev_epds13_pct,prev_epds11_pct,prev_phq9_10_pct
+Residence,City,637,79.6,44.6,57,57.9
+Residence,Village,163,20.4,39.9,48.5,54.6
+Education Level,College,99,12.4,39.4,54.5,56.6
+Education Level,High School,62,7.8,21,32.3,38.7
+Education Level,High school,9,1.1,11.1,22.2,22.2
+Education Level,None,6,0.8,33.3,33.3,33.3
+Education Level,Primary School,25,3.1,24,28,32
+Education Level,Primary school,11,1.4,18.2,36.4,54.5
+Education Level,University,588,73.5,48.6,60,61.2
+Current monthly income,10000 to 20000,66,8.2,37.9,45.5,47
+Current monthly income,20000 to 30000,63,7.9,33.3,47.6,41.3
+Current monthly income,5000 to 10000,42,5.2,42.9,57.1,57.1
+Current monthly income,Less than 5000,40,5,42.5,57.5,55
+Current monthly income,More than 30000,64,8,32.8,45.3,40.6
+Current monthly income,None,525,65.6,47,58.3,62.7
+Husband’s monthly income,10000 to 20000,146,18.2,35.6,47.9,52.1
+Husband’s monthly income,20000 to 30000,207,25.9,43.5,55.6,57
+Husband’s monthly income,5000 to 10000,65,8.1,41.5,49.2,53.8
+Husband’s monthly income,Less than 5000,11,1.4,36.4,45.5,45.5
+Husband’s monthly income,More than 30000,343,42.9,46.6,58.6,59.8
+Husband’s monthly income,None,28,3.5,57.1,67.9,67.9
+Recieved Support,High,307,38.4,27,39.4,43
+Recieved Support,Low,154,19.2,57.1,65.6,63
+Recieved Support,Medium,339,42.4,52.5,64.9,67.6
+Need for Support,High,25,3.1,44,60,68
+Need for Support,Low,523,65.4,50.5,62.9,64.4
+Need for Support,Medium,85,10.6,49.4,61.2,61.2
+Need for Support,None,167,20.9,19.2,27.5,31.1
+Abuse,No,359,44.9,64.1,73,73.5
+Abuse,None,38,4.8,7.9,13.2,21.1
+Abuse,Yes,403,50.4,28.8,43.4,46.2
+Diseases during pregnancy,Chronic Disease,121,15.1,55.4,66.1,71.1
+Diseases during pregnancy,Chronic disease,13,1.6,38.5,53.8,61.5
+Diseases during pregnancy,Non-Chronic Disease,279,34.9,50.2,61.3,62.4
+Diseases during pregnancy,Non-chronic disease,16,2,37.5,37.5,37.5
+Diseases during pregnancy,None,371,46.4,35.3,48,49.6
+Birth compliancy,No,487,60.9,39,51.3,53
+Birth compliancy,Yes,313,39.1,50.8,61.3,63.9
+Newborn illness,No,662,82.8,43.2,54.7,56.9
+Newborn illness,Yes,138,17.2,45.7,58,58.7
