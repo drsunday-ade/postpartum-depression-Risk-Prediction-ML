@@ -1,108 +1,110 @@
-# Postpartum Depression Risk Prediction (Bangladesh) — Reproducible ML Pipeline
+# A parsimonious machine-learning model for postpartum depression risk from prenatal PHQ-2 symptom trajectories: internal validation using EPDS ≥13
 
-This repository contains the reproducible analysis code for a prediction-model development study with internal validation using a publicly available, de-identified postpartum dataset from Bangladesh (women with a birth within the prior 24 months). The primary objective is to estimate postpartum depression (PPD) risk using a parsimonious machine-learning approach derived from prenatal PHQ-2 symptom trajectories, with outcome defined as EPDS ≥13.
+Reproducible **R** analysis pipeline and manuscript-ready outputs (tables/figures) for a **prediction-model development study with internal validation** using a publicly available, de-identified postpartum cohort from **Bangladesh** (n=800; births within 24 months). The primary endpoint is **high depressive symptom burden (EPDS ≥13)**, and the core prognostic feature is a prespecified **prenatal PHQ-2 trajectory** (before pregnancy × during pregnancy: NN, NP, PN, PP).
 
-## How to cite
+---
 
-### Our paper (this repository)
-Adetunji SA, Balogun T, Oyewusi RO. **A parsimonious machine-learning model for postpartum depression risk from prenatal PHQ-2 symptom trajectories: internal validation using EPDS ≥13.** *Manuscript*.
+## Manuscript
+**Adetunji SA**, Balogun T, Oyewusi R.  
+**A parsimonious machine-learning model for postpartum depression risk from prenatal PHQ-2 symptom trajectories: internal validation using EPDS ≥13.** *Manuscript.*
 
-**BibTeX**
-```bibtex
-@article{adetunji_ppd_parsimonious_ml,
-  title   = {A parsimonious machine-learning model for postpartum depression risk from prenatal PHQ-2 symptom trajectories: internal validation using EPDS \\ge 13},
-  author  = {Adetunji, Sunday A. and Balogun, Tomiisin and Oyewusi, Rhoda O.},
-  journal = {Manuscript},
-  note    = {Code: https://github.com/drsunday-ade/postpartum-depression-Risk-Prediction-ML}
-}
-Data source
+### Authors & affiliations
+- **Sunday A. Adetunji, MD, MPH** (1,2)  
+  1. College of Health, Oregon State University, Corvallis, OR, USA  
+  2. College of Health, Obafemi Awolowo University, Ile-Ife, Nigeria  
+- **Tomiisin Balogun, BSc** (3)  
+  3. Joseph Ayo Babalola University, Arakeji, Osun State, Nigeria  
+- **Rhoda Oyewusi, RN, RM, PON** (4)  
+  4. University of Lagos, Department of Nursing/Midwifery, Lagos, Nigeria  
 
-Raisa JF, Kaiser MS. Data for Postpartum Depression Prediction in Bangladesh. Mendeley Data, V2. doi:10.17632/4nznnrk8cg.2
+**Corresponding author:** Sunday A. Adetunji — adetunjs@oregonstate.edu — ORCID: 0000-0001-9321-9957
 
-Note: This repository does not redistribute the dataset. Please obtain it directly from Mendeley Data.
+---
 
-Data
+## Data
+This repository does **not** redistribute the dataset.
 
-Download the dataset from Mendeley Data (doi:10.17632/4nznnrk8cg.2).
+**Public dataset:** Raisa JF, Kaiser MS (2025). *Data for Postpartum Depression Prediction in Bangladesh*. Mendeley Data, V2. doi:10.17632/4nznnrk8cg.2
 
-Place the file here:
+### Expected local path
+After downloading from Mendeley Data, place the CSV here:
 
 data/PPD_dataset_v2.csv
-Quick start
+
+
+---
+
+## Methods (high-level)
+- **Outcome:** EPDS-high = **EPDS ≥13** (primary); sensitivity analyses for EPDS ≥12 and EPDS ≥11
+- **Core predictor:** prenatal **PHQ-2 trajectory** (NN, NP, PN, PP)
+- **Primary models:** nested **elastic-net penalized logistic regression**
+  - Model A: trajectory only  
+  - Model B: + demographics/household  
+  - Model C: + pregnancy context  
+  - Model D: + psychosocial/postpartum context (as available)
+- **Benchmark (secondary):** XGBoost (Model D) with probability recalibration (where implemented)
+- **Internal validation:** stratified bootstrap optimism correction
+- **Performance:** AUC, Brier score, calibration intercept/slope, and decision-curve analysis (0.05–0.60 thresholds)
+
+---
+
+## Reproducibility: quick start
+1) Clone:
+```bash
 git clone https://github.com/drsunday-ade/postpartum-depression-Risk-Prediction-ML.git
 cd postpartum-depression-Risk-Prediction-ML
 
-Then run the main analysis entry point in this repository (e.g., analysis/ or src/).
-If you provide an environment file (recommended), use one of the following and run the pipeline:
+Add the dataset:
 
-R (renv)
+data/PPD_dataset_v2.csv
+
+Restore/install dependencies (choose what matches the repo setup):
+
+If renv.lock is present:
 
 renv::restore()
 
-Python (requirements.txt)
+Otherwise, install required packages listed in the project scripts.
 
-python -m venv .venv
-source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
-pip install -r requirements.txt
-Methods (high-level)
+Run the analysis:
 
-Prediction-model development with internal validation
+Open the R project and run the main pipeline script located in the repository (see the analysis/ or src/ directory).
 
-Feature engineering including prenatal PHQ-2 symptom trajectory variables (as specified in the derived-variable documentation/scripts)
+The pipeline generates manuscript-ready tables/figures in the outputs directory (see below).
 
-Model training and evaluation focused on:
+Tip: If you want a single-command execution, add an explicit entrypoint (e.g., analysis/run_pipeline.R) and call it via Rscript.
 
-Discrimination (e.g., AUC)
+Outputs (typical)
 
-Calibration (e.g., calibration curve / calibration-in-the-large where implemented)
+outputs/tables/ — descriptive tables, performance tables (AUC/Brier/calibration), subgroup summaries
 
-Transparent reporting of preprocessing and derived variables
+outputs/figures/ — EPDS distribution, PHQ-2 trajectory risk gradient, ROC, calibration, decision curves
 
-Outputs
+manuscript/ — manuscript text and supplementary materials (if included)
 
-Typical outputs include:
+Ethics
 
-Performance metrics (discrimination and calibration)
+This study is a secondary analysis of a publicly available, de-identified dataset. The dataset creators report that original data collection obtained ethical approval and informed consent. No participant contact occurred in this study.
 
-Model objects (where saved)
-
-Reproducible tables/figures for manuscript reporting
-
-Derived-variable specification (if included in the repo)
-
-Repository structure (recommended)
-
-data/ — local data (not tracked; place PPD_dataset_v2.csv here)
-
-src/ or R/ — reusable functions
-
-analysis/ — main pipeline scripts/notebooks
-
-outputs/ — tables, figures, and logs
-
-docs/ — derived-variable specification and reporting notes
-
-Ethics and transparency
-
-This work is a secondary analysis of a publicly available, de-identified dataset. The dataset creators report that original data collection obtained ethical approval and informed consent. No participant contact occurred in this study.
-
-Funding and competing interests
+Funding & competing interests
 
 Funding: None.
 
 Competing interests: None declared.
 
-License
+How to cite
+Our paper
 
-Add a LICENSE file (e.g., MIT) to specify reuse terms.
+Adetunji SA, Balogun T, Oyewusi R. A parsimonious machine-learning model for postpartum depression risk from prenatal PHQ-2 symptom trajectories: internal validation using EPDS ≥13. Manuscript.
+
+Data source
+
+Raisa JF, Kaiser MS. Data for Postpartum Depression Prediction in Bangladesh. Mendeley Data, V2. doi:10.17632/4nznnrk8cg.2
 
 Contact
 
 Sunday A. Adetunji, MD, MPH
-Email: sundayadetunjisa@gmail.com
+adetunjs@oregonstate.edu
+ | sundayadetunjisa@gmail.com
 
 ORCID: https://orcid.org/0000-0001-9321-9957
-
-Acknowledgments
-
-We thank Raisa Jasiya Fairiz and Kaiser M Shamim for making the Bangladesh postpartum depression prediction dataset publicly available through Mendeley Data.
