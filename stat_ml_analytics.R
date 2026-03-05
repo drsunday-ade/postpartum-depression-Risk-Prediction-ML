@@ -1,5 +1,5 @@
 ############################################################
-# PPD Prediction Study — BULLETPROOF End-to-End R + ML Pipeline
+# PPD Prediction Study — End-to-End R + ML Pipeline
 # Outcome: EPDS-high (primary: EPDS Score >= 13)
 # Core predictors: PHQ-2 before + PHQ-2 during pregnancy (trajectory)
 # Incremental value: demographics + pregnancy context + psychosocial block
@@ -1097,3 +1097,4 @@ cat("Tables (CSV + HTML):\n",
     " - Table3_Performance_EPDS13\n",
     " - Table4_IncrementalValue\n",
     " - Table5_SubgroupAUC\n\n", sep = "")
+
